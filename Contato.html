@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guagliardi</title>
+  <link href="https://static.wixstatic.com/media/2ceb95_ec93070513824b6e9b10cbf581165358~mv2.png/v1/fill/w_599,h_558,al_c/2ceb95_ec93070513824b6e9b10cbf581165358~mv2.png" rel="icon" type='image/x-icon'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+  <link href="Contato.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="center">
+      <div class="menu">
+        <div class="logo">
+          <h1><a href="Inicial.html">Guagliardi</a></h1>
+        </div><!--logo-->
+        <nav><ul>
+          <a href="Inicial.html"><li>Início</li></a>
+          <a href="Sobremim.html"><li>Sobre</li></a>
+          <a href="Curriculo.html"><li>Currículo</li></a>
+          <a href="Interesses.html"><li>Interesses</li></a>
+          <a href="Novidades.html"><li>Novidades</li></a>
+          <a href="Contato.html"><li><span>Contato</span></li></a>
+        </ul></nav>
+      </div><!--menu-->
+    </div><!--center-->
+  </header>
+  <hr>
+
+  <h1 class="contatar">Entre em contato</h1>
+
+  <aside class="aside_form">
+    <form class="app_form" action="Cadastrop.php" method="post" autocomplete="off">
+
+        <div class="form_group">
+          <input required type="text" name="i_nome"> 
+          <span>Digite seu nome completo</span>
+        </div>
+
+        <div class="form_group">
+          <input required type="text" name="i_email">
+          <span>Digite seu email</span> 
+        </div>
+
+        <div class="form_group">
+          <textarea required rows="10"></textarea> 
+          <span>Deixe um comentário</span>
+        </div>
+        
+        <div class="botoes">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </div>
+        
+    </form>
+  </aside>
+
+  <section>
+    <h2>Tem interesse em falar comigo?</h2>
+    <p>Preencha o formulário ao lado com suas informações, me mande um email ou então me chame no WhatsApp abaixo.</p>
+  </section>
+  <article>
+    <a class="gmail"><img src="img/Gmail.png" class="email">brunoiguagliardi@gmail.com</a>
+    <a class="zap"><img src="img/WhatsApp.png" class="whatsapp">+55 (21) 98709-2823</a>
+  </article>
+
+</body>
+
+</html>
