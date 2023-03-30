@@ -21,7 +21,6 @@ html,body{
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   background-image: url("img/Wallpaper.png");
-  @media (min-width: 800px)
 }
 
 hr{
@@ -91,6 +90,7 @@ nav a li span{
 aside{
   display: table;
   float: right;
+  background-color: transparent;
 }
 
 form{
@@ -188,10 +188,14 @@ input[type =reset]{
 }
 
 .botoes{
+  background-color:transparent;
   float:right;
   display: flex;
 }
 
+section{
+  background-color: transparent;
+}
 
 section h2{
   color: #EFEFEF;
@@ -204,12 +208,13 @@ section h2{
 
 section p{
   color: #EFEFEF;
-  padding-left: 50px;
+  margin-left: 50px;
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 24px;
   display: table;
   text-align: justify;
-  width: 560px;
+  width: 500px;
+  float: left;
   animation: slide2 2.5s;
 }
 
